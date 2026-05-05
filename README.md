@@ -67,13 +67,43 @@ todo-app/
 
 ## Screenshots
 
-> Screenshots will be added here. The application features:
-> - A gradient purple/indigo background in light mode
-> - A deep dark gradient in dark mode
-> - Glass-effect cards with backdrop blur
-> - Animated task items with smooth transitions
-> - A progress bar showing completion status
-> - Filter tabs with active state indicators
+### Light Mode — Task List
+
+![TaskFlow Light Mode](screenshots/light-mode.png)
+
+The light mode features a soft purple-to-indigo gradient background with a frosted glass card. Tasks are displayed with animated checkboxes, a progress bar showing completion percentage, and filter tabs to switch between All, Active, and Done views.
+
+---
+
+### Dark Mode — Task List
+
+![TaskFlow Dark Mode](screenshots/dark-mode.png)
+
+Dark mode presents a deep navy gradient background with enhanced glassmorphism effects. The entire UI adapts seamlessly — from the card container to individual task items, checkboxes, and input fields — ensuring a comfortable viewing experience in low-light environments.
+
+---
+
+### Completed Tasks Filter
+
+![Completed Filter](screenshots/completed-filter.png)
+
+The Done filter displays only completed tasks with strikethrough styling and a violet accent color. The progress bar reflects real-time completion status, and the footer shows the remaining active task count with an option to clear all completed tasks at once.
+
+---
+
+### Empty State
+
+![Empty State](screenshots/empty-state.png)
+
+When no tasks exist, TaskFlow displays a friendly empty state with a floating animated icon and a contextual message encouraging the user to add their first task. This provides clear visual feedback instead of a blank screen.
+
+---
+
+### Mobile Responsive
+
+![Mobile View](screenshots/mobile-view.png)
+
+The application is fully responsive and optimized for mobile devices. The layout adapts gracefully to smaller screens, maintaining all functionality including task management, filtering, and dark mode toggle on any device size.
 
 ## Getting Started
 
@@ -85,7 +115,7 @@ todo-app/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/taskflow.git
+git clone https://github.com/devfahimbd/taskflow.git
 cd taskflow
 
 # Install dependencies
